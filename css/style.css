@@ -1,0 +1,85 @@
+:root{
+	--colour-one: #3b506c;
+    --colour-two: #0c66ff;
+}
+
+.container{
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--colour-one);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--colour-two);
+}
+.banner{
+    text-align: center;
+    padding: 60px 0;
+}
+.banner h1 {
+
+    color: var(--colour-one);
+    font-size: 50px;
+    font-weight: 900;
+}
+.banner h1 span{
+    color: var(--colour-two);
+    display: block;
+}
+.banner p{}
+.banner img{}
+.feature{}
+}
+img{
+    max-width: 100%;
+}
+
+.quote{
+    align-content: flex-start;
+
+}
+
+.devider-1{
+    padding: 0 10px;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.devider-2{
+    padding: 0 10px;
+    max-width: 50%;
+    flex-basis: 50%;   
+}
+
+.devider-2 h1{
+
+    font-size: 58px;
+    font-weight: 800;
+
+}
+
+.three-k{
+    text-align: right;
+}
+
+.three-k h2{
+    color: red;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.social{
+    display: flex !important;
+
+}
+.social img {
+    max-width: 100%;
+}
+
+.social-image{
+    max-width: 33.33%;
+}
